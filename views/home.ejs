@@ -1,0 +1,15 @@
+<%- include("partials/header"); -%>
+
+<h1><%= posts[0].title %></h1>
+<p>
+    <%= posts[0].content %>
+</p>
+
+ <%    posts.filter((post,index)=>{ %>
+        <% if(index !==0){ %>
+          <h1> <%= post.title %> </h1>
+          <p> <%= post.content.substring(0,101) %> ... <a href="/posts/<%=post.title %>">Read more</a></p>
+        <% } %>
+  <%  }) %>
+
+<%- include("partials/footer"); -%>
