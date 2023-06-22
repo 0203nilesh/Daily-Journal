@@ -15,9 +15,9 @@ Explore a captivating collection of personal journals on our website, showcasing
 
 
 ## Install Packages     
-run :-    npm i or npm install
-## Start the application              
-run :-   node app.js 
+> npm i or npm install
+## Start the application             
+> node app.js 
 
 ## User Guide
 1. Add post by going onto /compose
